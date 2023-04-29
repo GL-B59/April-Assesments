@@ -20,7 +20,7 @@ check = string.find(substring)
 while check>=0 :
     print(f'{substring} is present inside the word {string} ')
     
-    substring_1 = string[ check: len(substring)+1]      # 2
+    substring_1 = string[ check: check+len(substring)]      # 2
     print(f'substring = {substring}')
     check = -1
 
